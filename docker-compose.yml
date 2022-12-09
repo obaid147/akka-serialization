@@ -3,7 +3,7 @@ version: '2'
 services:
   postgres:
     image: postgres:latest
-    container_name: rockthejvm-akka-serialization-postgres
+    container_name: akka-serialization-postgres
     environment:
       - "TZ=Europe/Amsterdam"
       - "POSTGRES_USER=docker"
