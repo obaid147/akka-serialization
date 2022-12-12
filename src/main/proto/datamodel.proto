@@ -1,0 +1,17 @@
+syntax = "proto2";
+
+package serialization;
+
+option java_package = "serialization";
+
+message OnlineStoreUser {
+    required int32 id = 1;
+    required string userName = 2;
+    optional string userEmail = 4;
+    optional string userPhone = 5;
+}
+
+message ProtobufVote {
+    required string ssn = 1;
+    required string candidate = 2;
+}
